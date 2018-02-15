@@ -8,3 +8,6 @@ function destructivelyPrependDriver (name){
 function destructivelyRemoveLastDriver (){
   return drivers.pop()
 }
+function destructivelyRemoveFirstDriver (){
+  return drivers.pop()
+}
