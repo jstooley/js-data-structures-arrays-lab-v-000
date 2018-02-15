@@ -11,4 +11,6 @@ function destructivelyRemoveLastDriver (){
 function destructivelyRemoveFirstDriver (){
   return drivers.shift()
 }
-const appendDriver = drivers.slice()
+function appendDriver (name){
+  return drivers.push(name)
+}
